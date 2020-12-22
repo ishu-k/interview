@@ -1,0 +1,336 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify login with valid data",
+        "description": "",
+        "id": "login;verify-login-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22679832600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "Login.im_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7842483000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Login",
+            "match": {
+              "location": "Login.i_click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 690112500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid login details",
+            "match": {
+              "location": "Login.i_enter_valid_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Login button",
+            "match": {
+              "location": "Login.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see welcome page",
+            "match": {
+              "location": "Login.i_should_see_welcome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see full name on top of the page",
+            "match": {
+              "location": "Login.i_should_see_full_name_on_top_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "As an end user\r\nI want to login\r\nSo that I can login succesfully",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Searchwithvaliddata",
+        "description": "",
+        "id": "search;searchwithvaliddata",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31517074700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Im on home page",
+            "match": {
+              "location": "Search.im_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7772266800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for a prodcut",
+            "match": {
+              "location": "Search.i_search_for_a_prodcut()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99844100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the desired product",
+            "match": {
+              "location": "Search.i_should_see_the_desired_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "search with invalid productid",
+        "description": "",
+        "id": "search;search-with-invalid-productid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29453822600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Im on home page",
+            "match": {
+              "location": "Search.im_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3835468600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I search for a invalid productid",
+            "match": {
+              "location": "Search.iSearchForAInvalidProductid()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157242100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i should see the error",
+            "match": {
+              "location": "Search.i_should_see_the_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "search with no data",
+        "description": "",
+        "id": "search;search-with-no-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27872717200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Im on home page",
+            "match": {
+              "location": "Search.im_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11798263600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I search with no data",
+            "match": {
+              "location": "Search.i_search_with_no_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 211842600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see the desired error",
+            "match": {
+              "location": "Search.i_should_see_the_desired_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "search with",
+        "description": "",
+        "id": "search;search-with",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "Search",
+    "description": "As an end user\r\nI want to search for product\r\nSo that i shpuld see the desired product",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Verify functionality of store locator that stock clothing",
+        "description": "",
+        "id": "store-locator;verify-functionality-of-store-locator-that-stock-clothing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31943811200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Home page",
+            "match": {
+              "location": "StoreLocator.i_am_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1873989500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Tu store locator link",
+            "match": {
+              "location": "StoreLocator.i_click_Tu_store_locator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252069700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter post code",
+            "match": {
+              "location": "StoreLocator.enter_post_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "select checkbox for only show stores that stock clothing and tick checkbox womens",
+            "match": {
+              "location": "StoreLocator.select_checkbox_for_only_show_stores_that_stock_clothing_and_tick_checkbox_womens()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "it should display store that stock clothing",
+            "match": {
+              "location": "StoreLocator.it_should_display_store_that_stock_clothing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Store Locator",
+    "description": "As an end user\r\nI want to locate the store using postcode\r\nso That it should display the stock",
+    "id": "store-locator",
+    "keyword": "Feature",
+    "uri": "storelocator.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@storelocator"
+      }
+    ]
+  }
+]
